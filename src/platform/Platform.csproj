@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{816F099C-E14B-4468-9E34-87F993C6484D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XmCloudSXAStarter</RootNamespace>
+    <AssemblyName>XmCloudSXAStarter</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Azure.Core">
+      <HintPath>..\..\KajooReferences\Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Core.Amqp">
+      <HintPath>..\..\KajooReferences\Azure.Core.Amqp.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Messaging.ServiceBus">
+      <HintPath>..\..\KajooReferences\Azure.Messaging.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor">
+      <HintPath>..\..\KajooReferences\HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.Api">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.Deployment">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.Login">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.Login.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.LuanchpadApp">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.LuanchpadApp.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.ProjectSelection">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.ProjectSelection.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Foundation.Common">
+      <HintPath>..\..\KajooReferences\Kajoo.Foundation.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Foundation.Messaging">
+      <HintPath>..\..\KajooReferences\Kajoo.Foundation.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Foundation.PostDeployment">
+      <HintPath>..\..\KajooReferences\Kajoo.Foundation.PostDeployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Amqp">
+      <HintPath>..\..\KajooReferences\Microsoft.Azure.Amqp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory.Data">
+      <HintPath>..\..\KajooReferences\System.Memory.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.XmCloud.Kernel" />
+    <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
+    <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
+    <PackageReference Include="Sitecore.XmCloud.LayoutService" />
+    <PackageReference Include="Sitecore.XmCloud.Assemblies" />
+    <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Api.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Api.EventHandler.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Api.GraphQl.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Deployment.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Login.Hosts.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Foundation.Common.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Foundation.Messaging.config" />
+    <None Include="Platform.wpp.targets" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="README.md" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Renderings\Login.cshtml" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Renderings\ProjectSelection.cshtml" />
+    <Content Include="sitecore\shell\Themes\Standard\KajooIcons.zip" />
+    <None Include="web.config" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Assets\css\kajoo-login.css" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Assets\images\kajoostandardlogo.png" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Assets\images\Kajoo_animate.gif" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Renderings\Login.js" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Renderings\Login.test.js" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\Login\Renderings\TokenValidation.js" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Assets\css\kajoo-project-selection.css" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Assets\images\Kajoo_Logo_Horizontal_OneColour_White.png" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Assets\images\Kajoo_Logo_V3.gif" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Renderings\ProjectSelection.js" />
+    <Content Include="sitecore\shell\client\YourApps\Kajoo\ProjectSelection\Renderings\ProjectSelection.test.js" />
+    <Content Include="App_Data\Xdts\Web.config.xdt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52287</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52230/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
