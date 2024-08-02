@@ -1,0 +1,171 @@
+.main,.i-phone-14 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.i-phone-14 {
+  gap: 33px;
+  height: auto;
+  padding: 64px 0 0;
+  align-self: stretch;
+  background-color: rgba(251, 251, 253, 1);
+}
+.i-phone-14-pro-details {
+  gap: 18px;
+}
+.i-phone-14-pro-details,.frame-5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-5 {
+  gap: 4px;
+}
+.text {
+  font-size: 56px;
+}
+.text,.text1 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text1 {
+  font-size: 26px;
+}
+.details {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.text2,.text3 {
+  color: rgba(134, 134, 139, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.learn-order {
+  gap: 42px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-6 {
+  display: flex;
+  align-items: center;
+}
+.text4 {
+  color: rgba(0, 102, 204, 1);
+  width: 106px;
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright1,.arrowright {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector {
+  top: 2.7199997901916504px;
+  left: 5.939999580383301px;
+  width: 5px;
+  height: 11px;
+}
+.vector,.vector1 {
+  position: absolute;
+}
+.vector1 {
+  top: 16px;
+  left: 16px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.00;
+}
+.frame-7 {
+  display: flex;
+  align-items: center;
+}
+.text5 {
+  color: rgba(0, 102, 204, 1);
+  width: 91px;
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright2 {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright3,.arrowright1 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector2 {
+  top: 2.7199997901916504px;
+  left: 5.939999580383301px;
+  width: 5px;
+  height: 11px;
+}
+.vector2,.vector3 {
+  position: absolute;
+}
+.vector3 {
+  top: 16px;
+  left: 16px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.00;
+}
+.heroiphone-14-preorderc-4-g-2-wjzuugqelargetall-2-x {
+  width: 515px;
+  height: 538px;
+}
