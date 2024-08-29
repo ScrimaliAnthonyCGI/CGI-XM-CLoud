@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { Field, Text, Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 

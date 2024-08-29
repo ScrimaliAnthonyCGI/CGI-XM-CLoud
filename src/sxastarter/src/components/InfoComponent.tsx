@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { Text, Field, ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
