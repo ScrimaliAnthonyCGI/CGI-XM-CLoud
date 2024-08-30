@@ -1,0 +1,23 @@
+﻿---
+ID: "fc46cfaf-520a-4df1-aa4c-789c1a12bcc2"
+Parent: "07c3ca0f-25cd-4ac9-8291-1857518b65d5"
+Template: "b1e2b20e-95f2-45ce-a955-f72386247a2f"
+Path: /sitecore/content/Company DEV/Company DEV/Data/Text Teasers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T144538Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bce7e9ca-d925-4be2-858f-c5acedbc4689"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T144538Z

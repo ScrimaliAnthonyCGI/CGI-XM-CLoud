@@ -1,0 +1,37 @@
+﻿---
+ID: "bc90db7f-feaf-43c5-8c74-1cca4d9d21a6"
+Parent: "b1e2b20e-95f2-45ce-a955-f72386247a2f"
+Template: "b1e2b20e-95f2-45ce-a955-f72386247a2f"
+Path: /sitecore/templates/Project/Company DEV/Basic Components/Text Teaser Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F3141F37-0F0C-43CF-A945-6F6842825F69}
+    {B1E2B20E-95F2-45CE-A955-F72386247A2F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T144150Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "973feb17-1742-4d65-a7e1-bdf8d4b6ad67"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T144309Z
