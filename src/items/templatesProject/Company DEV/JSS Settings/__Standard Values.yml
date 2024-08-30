@@ -1,0 +1,31 @@
+﻿---
+ID: "05d77fe9-9d63-4e46-b9fd-efe2b1d9ede4"
+Parent: "5f7373e8-a199-46c7-af67-9d17d6887f32"
+Template: "5f7373e8-a199-46c7-af67-9d17d6887f32"
+Path: /sitecore/templates/Project/Company DEV/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T093717Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b85f4e1f-9930-4826-9c01-6b78641b9486"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T093717Z

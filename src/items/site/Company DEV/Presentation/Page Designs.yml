@@ -1,0 +1,39 @@
+﻿---
+ID: "60ff4b17-6216-4d0c-aa7b-3587dadb2231"
+Parent: "d92b277b-561e-46d6-b595-52e8a7b95626"
+Template: "e795fba0-077e-4a59-9fc5-c063ed6843b2"
+Path: /sitecore/content/Company DEV/Company DEV/Presentation/Page Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bA6763C26-D611-443B-AF81-96C7843F1FEF%7d%3d%257B35596C63-308F-46B2-9A07-85DC55B5C6D3%257D"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T093726Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f847c4f9-b748-45f9-ad90-5215da8605be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony.scrimali@cgi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T093806Z
